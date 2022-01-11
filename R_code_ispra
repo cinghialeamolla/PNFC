@@ -1,9 +1,15 @@
 #questa funzione istalla i pacchetti
 #install.packages("raster")
+#install.packages("ggplot2")
+#install.packages("gridExtra")
 #install.packages("RStoolbox")
 #questafunzione richiama i pacchetti
 library(raster)
 library(RStoolbox)
-
+library(ggplot2) 
+library(gridExtra)
 #questa funzione carica la cartella lab
 setwd("C:/R_file/")
+
+
+
