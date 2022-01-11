@@ -1,7 +1,9 @@
-#questa funzione istalla il pacchetto raster
+#questa funzione istalla i pacchetti
 #install.packages("raster")
-#questafunzione richiama il pacchetto raster
+#install.packages("RStoolbox")
+#questafunzione richiama i pacchetti
 library(raster)
+library(RStoolbox)
 
 #questa funzione carica la cartella lab
 setwd("C:/R_file/")
