@@ -1,0 +1,7 @@
+#Dopo aver formattato i dati della tabella di input, usare funzione del pacchetto R "ggplot2"
+
+ggplot(data, aes(fill=attribuzione,x=count, y=sito))+geom_bar(position="fill", stat="identity")
+
+#data = foglio excel di input opportunamente importato in R
+#count è una colonna con valore 1 per ogni riga
+#sito e attribuzione sono le colonne nel file grezzo
