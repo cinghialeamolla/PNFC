@@ -5,6 +5,8 @@
 #install.packages("RStoolbox")
 #install.packages("knitr")
 #install.packages("ncdf4")
+#install.packages("RCommander") #importare file dati
+#install.packages("readxl") 
 #questafunzione richiama i pacchetti
 library(raster)
 library(RStoolbox)
@@ -12,6 +14,8 @@ library(ggplot2)
 library(gridExtra)
 library(knitr)
 library(knitr)
+library(RCommander)
+library(readxl)
 #questa funzione carica la cartella lab
 setwd("C:/R_file/")
 
