@@ -5,7 +5,7 @@
 #install.packages("RStoolbox")
 #install.packages("knitr")
 #install.packages("ncdf4")
-#install.packages("RCommander") #importare file dati
+#importare file dati
 #install.packages("readxl") 
 #questafunzione richiama i pacchetti
 library(raster)
@@ -14,10 +14,18 @@ library(ggplot2)
 library(gridExtra)
 library(knitr)
 library(knitr)
-library(RCommander)
 library(readxl)
 #questa funzione carica la cartella lab
 setwd("C:/R_file/")
 
 
 
+
+
+
+
+#https://impararfacendo.blogspot.com/2018/11/importare-dati-di-un-file-xls-o-xlsx.html
+#https://www.it-swarm.it/it/r/importazione-di-file-excel-r-xlsx-o-xls/940246196/
+#https://www.agnesevardanega.eu/wiki/r/gestione_dei_dati/importare_i_dati
+#https://cranhttps://cran.r-project.org/web/packages/ggplot2/index.html.r-project.org/web/packages/ggplot2/ggplot2.pdf
+#
