@@ -29,3 +29,11 @@ setwd("C:/R_file/")
 #https://www.agnesevardanega.eu/wiki/r/gestione_dei_dati/importare_i_dati
 #https://cranhttps://cran.r-project.org/web/packages/ggplot2/index.html.r-project.org/web/packages/ggplot2/ggplot2.pdf
 #
+
+
+ggplot(data, aes(fill=attribuzione,x=count, y=sito))+
+    geom_bar(position="fill", stat="identity")
+
+#data = foglio excel di input opportunamente importato in R
+#count è una colonna con valore 1 per ogni riga
+#sito e attribuzione sono le colonne che vedi nel file grezzo
